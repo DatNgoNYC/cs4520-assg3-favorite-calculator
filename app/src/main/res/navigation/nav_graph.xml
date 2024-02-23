@@ -1,0 +1,13 @@
+<!-- Root Project/app/src/main/res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.cs4520.assignment3.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/homepage_fragment" />
+</navigation>
