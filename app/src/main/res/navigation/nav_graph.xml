@@ -9,5 +9,16 @@
         android:id="@+id/homeFragment"
         android:name="com.cs4520.assignment3.HomeFragment"
         android:label="Home"
-        tools:layout="@layout/homepage_fragment" />
+        tools:layout="@layout/homepage_fragment">
+        <!-- Define the actions for navigation -->
+        <action
+            android:id="@+id/action_homeFragment_to_mvpCalculatorFragment"
+            app:destination="@id/mvpCalculatorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mvpCalculatorFragment"
+        android:name="com.cs4520.assignment3.HomeFragment"
+        android:label="MVP"
+        tools:layout="@layout/mvp_calculator_fragment" />
 </navigation>
