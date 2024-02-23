@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/mvpCalculatorFragment"
-        android:name="com.cs4520.assignment3.HomeFragment"
+        android:name="com.cs4520.assignment3.MvpCalculator.View"
         android:label="MVP"
         tools:layout="@layout/mvp_calculator_fragment" />
 </navigation>
