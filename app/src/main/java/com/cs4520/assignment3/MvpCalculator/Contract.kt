@@ -8,9 +8,9 @@ interface Contract {
     }
 
     interface Presenter {
-        fun onAddClicked(a: Double, b: Double)
-        fun onSubtractClicked(a: Double, b: Double)
-        fun onMultiplyClicked(a: Double, b: Double)
-        fun onDivideClicked(a: Double, b: Double)
+        fun onAddClicked(a: String, b: String)
+        fun onSubtractClicked(a: String, b: String)
+        fun onMultiplyClicked(a: String, b: String)
+        fun onDivideClicked(a: String, b: String)
     }
 }
