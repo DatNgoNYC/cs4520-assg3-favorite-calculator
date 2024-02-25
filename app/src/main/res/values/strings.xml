@@ -2,4 +2,10 @@
     <string name="app_name">assignment3</string>
     <string name="mvp_button_text">MVP</string>
     <string name="mvvm_button_text">MVVM</string>
+    <string name="input_1_hint">Enter number 1</string>
+    <string name="input_2_hint">Enter number 2</string>
+    <string name="button_add_text">Add</string>
+    <string name="button_subtract_text">Subtract</string>
+    <string name="button_multiply_text">Multiply</string>
+    <string name="button_divide_text">Divide</string>
 </resources>
