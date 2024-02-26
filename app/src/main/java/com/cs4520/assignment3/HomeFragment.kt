@@ -23,5 +23,9 @@ class HomeFragment : Fragment() {
         view.findViewById<Button>(R.id.mvp_button).setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_mvpCalculatorFragment)
         }
+
+        view.findViewById<Button>(R.id.mvvm_button).setOnClickListener( {
+            findNavController().navigate(R.id.action_homeFragment_to_mvvmCalculatorFragment)
+        })
     }
 }

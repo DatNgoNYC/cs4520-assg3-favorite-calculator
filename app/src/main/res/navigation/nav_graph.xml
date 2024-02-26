@@ -14,11 +14,20 @@
         <action
             android:id="@+id/action_homeFragment_to_mvpCalculatorFragment"
             app:destination="@id/mvpCalculatorFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mvvmCalculatorFragment"
+            app:destination="@id/mvvmCalculatorFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/mvpCalculatorFragment"
         android:name="com.cs4520.assignment3.MvpCalculator.ViewFragment"
         android:label="MVP"
-        tools:layout="@layout/mvp_calculator_fragment" />
+        tools:layout="@layout/mvp_calculator_fragment"/>
+
+    <fragment
+        android:id="@+id/mvvmCalculatorFragment"
+        android:name="com.cs4520.assignment3.MvvmCalculator.MvvmCalcFragment"
+        android:label="MVVM"
+        tools:layout="@layout/mvvm_calculator_fragment"/>
 </navigation>
