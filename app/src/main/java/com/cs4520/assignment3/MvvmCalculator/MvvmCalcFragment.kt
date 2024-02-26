@@ -46,6 +46,7 @@ class MvvmCalcFragment : Fragment() {
                 binding.input1.text.toString().toDouble(),
                 binding.input2.text.toString().toDouble()
             )
+            clearInput()
         }
 
         binding.buttonSubtract.setOnClickListener {
@@ -53,6 +54,7 @@ class MvvmCalcFragment : Fragment() {
                 binding.input1.text.toString().toDouble(),
                 binding.input2.text.toString().toDouble()
             )
+            clearInput()
         }
 
         binding.buttonMultiply.setOnClickListener {
@@ -60,6 +62,7 @@ class MvvmCalcFragment : Fragment() {
                 binding.input1.text.toString().toDouble(),
                 binding.input2.text.toString().toDouble()
             )
+            clearInput()
         }
 
         binding.buttonDivide.setOnClickListener {
@@ -67,8 +70,14 @@ class MvvmCalcFragment : Fragment() {
                 binding.input1.text.toString().toDouble(),
                 binding.input2.text.toString().toDouble()
             )
+            clearInput()
         }
 
+    }
+
+    private fun clearInput() {
+        binding.input1.text.clear()
+        binding.input2.text.clear()
     }
 
     override fun onDestroyView() {
