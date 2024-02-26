@@ -1,6 +1,6 @@
 package com.cs4520.assignment3.MvpCalculator
 
-class Model {
+open class Model {
     fun add(a: Double, b: Double) = a + b
     fun subtract(a: Double, b: Double) = a - b
     fun multiply(a: Double, b: Double) = a * b

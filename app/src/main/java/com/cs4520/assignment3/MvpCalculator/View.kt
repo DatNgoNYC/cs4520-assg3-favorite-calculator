@@ -1,7 +1,6 @@
 package com.cs4520.assignment3.MvpCalculator
 
 import android.os.Bundle
-import android.text.Editable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,7 +11,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.cs4520.assignment3.R
 
-class ViewFragment : Fragment(), Contract.View {
+class View : Fragment(), Contract.View {
 
     private lateinit var input1: EditText
     private lateinit var input2: EditText

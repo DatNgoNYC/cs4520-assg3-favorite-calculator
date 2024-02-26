@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MvpCalculator.ViewFragment"
+    tools:context=".MvpCalculator.View"
     android:background="@color/mvp_background">
 
     <!-- Number Input Fields -->
